@@ -8,6 +8,7 @@ const productos = require('./routers/productos');
 const ventas = require('./routers/ventas');
 const ingresos = require('./routers/ingresos');
 
+
 const app = express();
 const port = process.env.PORT || 3000;
 
